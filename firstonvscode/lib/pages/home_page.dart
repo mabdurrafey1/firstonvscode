@@ -98,7 +98,7 @@ class catalogitem extends StatelessWidget {
         children: [
           Hero(
             tag: Key(catalog.id.toString()),
-            child: Image.network(catalog.image)
+            child: Image.asset(catalog.image)
                 .box
                 .roundedSM
                 .color(Vx.pink900)

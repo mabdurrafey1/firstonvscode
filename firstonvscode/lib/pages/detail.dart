@@ -36,7 +36,7 @@ class DetailPage extends StatelessWidget {
             tag: Key(
               catalog.id.toString(),
             ),
-            child: Image.network(catalog.image),
+            child: Image.asset(catalog.image),
           ).h40(context).w64(context),
           Expanded(
             child: VxArc(

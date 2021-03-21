@@ -2,12 +2,6 @@ import 'dart:convert';
 
 // ignore: camel_case_types
 class catalogModel {
-  static final catM = catalogModel._internal();
-
-  catalogModel._internal();
-
-  factory catalogModel() => catM;
-
   static List<itemCat> items;
 //getter by id
   itemCat getById(int id) =>
